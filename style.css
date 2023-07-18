@@ -1,0 +1,136 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+/* nav related style */
+.game-logo-topbar{
+    display: flex;
+    gap: 650px;
+    margin: 0px;
+    padding-left: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+
+}
+.logo-name{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.logo{
+    width: 56.041px;
+    height: 30px;
+    flex-shrink: 0;
+}
+.option{
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+    color: #3C354F;
+    align-items: center;
+
+}
+.btn1{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 150px;
+    height: 40px;
+    border: 0px;
+}
+/* nav2 releted style */
+.body{
+    display: flex;
+    gap: 70px;
+    padding-left: 0px;
+    
+}
+.nanan-option{
+    padding-top: 100px;
+    padding-left: 0px;
+    background-image: url("images/Group\ 14.png");
+    background-repeat: no-repeat;
+    width: 900px;
+    height: 600px;
+    
+
+}
+.img1{
+    margin-right: 100px;
+}
+.img2{
+    width: 500px;
+    height: 600px;
+    
+    
+}
+.headline{
+    color: #0B0223;
+
+margin-left: 0px;
+font-size: 60px;
+/* font-weight: 600; */
+margin-bottom: 0px;
+padding-left:150px;
+}
+.headline2{
+    
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   background-clip: text;
+    -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   margin-top: 0px;
+    font-size: 105px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 150px;
+}
+.li{
+    margin-bottom: 20px;
+}
+.list{
+color: #534C64;
+list-style: none;
+margin-top: 0px;
+font-size: 20px;
+font-weight: 500;
+padding-left: 150px;
+}
+.btn4{
+    margin-top: 0px;
+    display: flex;
+    gap: 30px;
+    padding-left: 150px;
+}
+.btn2{
+    padding: 20px 45px;
+    border-radius: 30px;
+    border: 0px;
+    background: #FF42A5;;
+    color: #fff;
+    
+    
+}
+.btn3{
+    padding: 20px 45px;
+    border-radius: 30px;
+    border: 0px;
+    background: #4EC5F7;
+    color: #fff;
+}
+@media screen and (max-width:576px) {
+    .game-logo-topbar{
+        flex-direction: column;
+        gap: 10px;
+        box-shadow: none;
+        padding-left: 300px;
+        
+    }
+    
+    }
+    .option{
+        flex-direction: column;
+        align-items: center;
+        
+    }
