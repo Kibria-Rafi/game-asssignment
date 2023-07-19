@@ -59,7 +59,7 @@
 }
 .img2{
     width: 500px;
-    height: 600px;
+    height: 690px;
     
     
 }
@@ -119,18 +119,89 @@ padding-left: 150px;
     background: #4EC5F7;
     color: #fff;
 }
+/* gamer related style */
+.gamer{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    padding-left: 150px;
+    
+}
+
+.gamer-name{
+    padding-left: 100px;
+    padding-top: 20px;
+    margin-right: 100px;
+
+}
+.namee{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+}
+.name-description{
+    color: #534C64;
+    font-size: 14px;
+    
+}
+.img6{
+    height: 500px;
+    width: 700px;
+}
+.btn-7{
+    padding: 15px 40px;
+    border-radius: 35px;
+    border: 0px;
+    background: #FF42A5;
+    color: white;
+}
+.bdr{
+    text-align: right;
+    color: #534C64;
+}
+.bdr2{
+    color: #534C64;
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width:576px) {
     .game-logo-topbar{
         flex-direction: column;
         gap: 10px;
         box-shadow: none;
-        padding-left: 300px;
-        
+        padding-left: 0px;
+        margin: 0px;
+        padding-left: 500px;
+        padding-top: 10px;
     }
     
-    }
+
     .option{
         flex-direction: column;
-        align-items: center;
+        padding-left: 80px;
+        margin: 0px;
+        padding-right: 0px;
+        margin-right: 0px;
         
     }
+    .body{
+      flex-direction: column-reverse;
+    }
+    .img1{
+        margin-top: 50px;
+        margin-left: 290px;
+        width: 100%;
+        height: 100%;
+        
+    }
+    .nanan-option{
+       
+    }
+}
