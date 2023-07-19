@@ -196,8 +196,11 @@ font-size: 48px;
 
 }
 .im{
-   height: 300px;
-   
+   height: 300px; 
+}
+.im:hover{
+    border: 3px solid #F948B2;
+    border-radius: 15px;
 }
 .p{
     color: #534C64;
@@ -209,6 +212,7 @@ font-size: 48px;
     grid-area: 50px;
     margin-right: 200px;
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 .no{
     color: #FF42A5;
@@ -240,8 +244,88 @@ font-size: 48px;
     margin-left: -100px;
 }
 
+.image-44{
+   text-align: center;
+   margin-bottom: 20px;
+   padding-top: 100px;
+}
+  .image-33{
+    text-align: center;
+}
+.squere-button{
+    
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    width: 1500px;
+    height: 327px;
 
+}
+.btn-primary{
+    border: none;
+    padding: 15px 45px;
+    border-radius: 55px;
+    cursor: pointer;
+    background: #FFF;
+    
+}
+.btn-primary:hover{
+    border: 3px solid #FF42A5;
+    color: #FF42A5;
+}
+.pp{
+    display: inline;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.ima{
+    height: 40px;
+    width: 40px;
+}
+/* last style */
 
+.foot{
+    gap: 20px;
+    background: #0B0223;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    justify-content: center;
+}
+.logo-name1{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.name11{
+    color: #fff;
+}
+    
+.option1{
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    color: #fff;
+    font-size: small;
+}
+.logo-6{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.logoo{
+    height: 20px;
+    width: 20px;
+    
+}
+.otion-num1{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 12px;
+}
+.copy{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 12px;
+}
 
 
 
@@ -298,8 +382,6 @@ font-size: 48px;
         padding-left: auto;
         padding-top: auto;
         
-}
-.namee{
-    
+
 }
 }
